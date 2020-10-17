@@ -13,7 +13,7 @@ export default function App() {
   })
 
   if(!fontsLoaded) {
-    return 'loading...'
+    return null
   }
 
   return (
